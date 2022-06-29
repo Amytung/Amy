@@ -1,0 +1,15 @@
++ int result;
++ result + 0;
++ while (result !=1)
+{
++    //name
++    Console.WriteLine("Enter username");
++    string? name = Console.ReadLine();
++    Console.WriteLine("Name: " + name);
++    
++    //Gender
++    Console.WriteLine("Enter your gender (1.Male 2.Female)");
++    string? gender = Console.ReadLine();
++    switch (gender)
++    {
++        Case "1";
